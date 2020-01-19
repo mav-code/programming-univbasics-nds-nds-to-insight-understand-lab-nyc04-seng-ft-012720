@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   counter = 0
   output = []
-  while counter < directors_database[0].length
+  while counter < directors_database[0][:movies].length
  output << directors_database[0][:movies][counter][:title]
 counter += 1
 end

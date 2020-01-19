@@ -15,5 +15,6 @@ def print_first_directors_movie_titles
  output << directors_database[0][:movies][counter][:title]
 counter += 1
 end
+output.join("")
 p output
 end

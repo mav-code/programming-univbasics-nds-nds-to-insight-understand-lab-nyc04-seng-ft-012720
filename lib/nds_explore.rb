@@ -16,5 +16,5 @@ def print_first_directors_movie_titles
 counter += 1
 end
 output.join("\n")
-p output
+puts output
 end
